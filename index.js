@@ -22,6 +22,5 @@ const port 	= 5000;
 
 // then listen to the selected port.
 
-app.listen(port, function(){
-	console.log('Server is running on port ${port}')
-})
+app.listen(port, ()=>
+	console.log('Server is running on port ${port}'));
